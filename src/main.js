@@ -7,7 +7,7 @@ import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 Vue.config.productionTip = false
 export const bus = new Vue();
-Vue.prototype.$APIURL = 'http://localhost:3000/api/'
+Vue.prototype.$APIURL = 'https://01204111-backend-22iqpu7n4-boss11887.vercel.app/api/'
 
 new Vue({
   router,
